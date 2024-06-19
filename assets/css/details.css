@@ -1,0 +1,36 @@
+#movie-details .details-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem 0 2rem;
+}
+
+#movie-details img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  box-shadow:0 0 40px 0 #9b0b0b;
+  border-radius: 4px;
+}
+
+#movie-details p {
+  margin: 1.25rem 0;
+}
+
+.rating {
+  color: var(--secondary-color);
+}
+a:hover {
+  color: var(--secondary-color);
+}
+.movie-type{
+  color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  #movie-details .details-top {
+    flex-direction: row;
+  }
+}
